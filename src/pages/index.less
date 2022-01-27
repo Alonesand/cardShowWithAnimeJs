@@ -1,0 +1,71 @@
+.card {
+  width: 90vw;
+  height: 90vh;
+  top: 5vh;
+  left: 5vw;
+  position: fixed;
+  opacity: 0.8;
+  border-radius: 45px;
+  transform-origin: left top;
+  // box-shadow: 10px 10px 10px 5px #DDD;
+}
+
+.card1:extend(.card) {
+  background-color: #52c41a;
+}
+.card2:extend(.card) {
+  background-color: #722ed1;
+}
+.card3:extend(.card) {
+  background-color: #ff4d4f;
+}
+.card4:extend(.card) {
+  background-color: #1890ff;
+}
+
+.svg {
+  display: flex;
+  width: 5vw;
+  height: 5vh;
+  position: relative;
+  margin: 5vh auto;
+}
+
+.loginInput {
+  border: none;
+  outline: none;
+  position: relative;
+  display: flex;
+  width: 35vw;
+  height: 10vh;
+  padding: 1vh 2vw;
+  font-size: 5vh;
+  border-radius: 10vh;
+}
+
+.loginAccount:extend(.loginInput) {
+  margin: 20vh auto 10vh auto;
+}
+
+.loginPassword:extend(.loginInput) {
+  margin: 10vh auto 10vh auto;
+}
+
+.svgLogin {
+  margin: 0 auto;
+  display: flex;
+}
+
+.pathStyle {
+  opacity: 1;
+  fill: #FFFFFF;
+  fill-opacity: 1;
+  stroke: 'none';
+  stroke-width: 0;
+  stroke-linecap: 'round';
+  stroke-linejoin: 'round';
+  stroke-miterlimit: 4;
+  stroke-dasharray: 'none';
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+}
