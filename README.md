@@ -2,14 +2,6 @@
 
 ## Getting Started
 
-Install dependencies,
+npm install -save
 
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
+npm start
